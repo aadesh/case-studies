@@ -1,0 +1,42 @@
+.post{
+    h1 {
+        font-size: 36px;
+        font-weight: 800;
+    }
+    .post-content {
+        h3 {
+            text-transform: uppercase;
+            margin-bottom: 1em;
+            color: #00ab6b;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: "Lato";
+        }
+        p,li {
+            font-family: "Merriweather";
+        }
+        blockquote {
+            border-left: 0;
+            padding: 0;
+            p {
+                font-family: "Lato";
+                font-style: normal;
+                font-size: 24px;
+                font-weight: 300;
+                border-bottom: 1px solid #eaeaea;
+                padding-bottom: 50px;
+                margin-bottom: 50px;
+                letter-spacing: 0;
+            }
+        }
+        hr {
+            border:0;
+            border-bottom:1px solid #eaeaea;
+            margin:50px 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+}
